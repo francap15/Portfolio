@@ -1,5 +1,5 @@
 # Portfolio
-Este es el repositorio de mi portafolio personal, donde muestro mis habilidades, proyectos y experiencia en el campo de la tecnología. El portafolio está desarrollado utilizando **HTML, CSS, y JavaScript**, y está diseñado para ser responsivo y fácil de navegar.
+Este es el repositorio de mi portafolio personal, donde muestro mis habilidades y experiencia en el campo de la tecnología. El portafolio está desarrollado utilizando **HTML, CSS, y JavaScript**, y está diseñado para ser responsivo y fácil de navegar.
 
 ### Descripción
 El propósito de este portafolio es presentar mi perfil profesional de manera organizada y atractiva. Incluye secciones clave como:
@@ -7,13 +7,12 @@ El propósito de este portafolio es presentar mi perfil profesional de manera or
 - Sobre mí: Un resumen de mis intereses y experiencia en el área de tecnología.
 - Estudios: Mi formación académica, incluyendo cursos y certificaciones relevantes.
 - Aptitudes y Conocimientos: Una lista de mis habilidades técnicas y blandas.
-- Proyectos: Descripción de proyectos en los que he trabajado.
 - Links: Enlaces a mis perfiles en LinkedIn y GitHub.
 
 ### Tecnologías Utilizadas
 - HTML5: Para la estructura y contenido del portafolio.
 - CSS3: Para la estilización y diseño responsivo.
-- JavaScript: Para la interacción y funcionalidad dinámica (como el botón de "Subir al inicio").
+- JavaScript: Para la interacción y funcionalidad dinámica (botones).
 - Font Awesome: Para los iconos de redes sociales.
 
 ### Características
@@ -22,6 +21,7 @@ El propósito de este portafolio es presentar mi perfil profesional de manera or
 - Navegación Intuitiva: Estructura clara que facilita el acceso a las diferentes secciones.
 
 ### Instalación y Uso
+
 ##### Clonar el repositorio:
 git clone https://github.com/tu-usuario/portfolio.git
 ##### Navegar al directorio del proyecto:
