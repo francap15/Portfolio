@@ -9,7 +9,8 @@ El propósito de este portafolio es presentar mi perfil profesional de manera or
 - Aptitudes y Conocimientos: Una lista de mis habilidades técnicas y blandas.
 - Proyectos: Descripción de proyectos en los que he trabajado.
 - Links: Enlaces a mis perfiles en LinkedIn y GitHub.
-- Tecnologías Utilizadas
+
+### Tecnologías Utilizadas
 - HTML5: Para la estructura y contenido del portafolio.
 - CSS3: Para la estilización y diseño responsivo.
 - JavaScript: Para la interacción y funcionalidad dinámica (como el botón de "Subir al inicio").
