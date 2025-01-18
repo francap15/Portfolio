@@ -1,7 +1,7 @@
     /* Header */
 
 .header {
-    justify-content: flex-end;
+    justify-content: center;
     padding: .8rem 3rem;
     z-index: 2;
 }
