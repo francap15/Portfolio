@@ -13,7 +13,6 @@ El propósito de este portafolio es presentar mi perfil profesional de manera or
 - HTML5: Para la estructura y contenido del portafolio.
 - CSS3: Para la estilización y diseño responsivo.
 - JavaScript: Para la interacción y funcionalidad dinámica (botones).
-- Font Awesome: Para los iconos de redes sociales.
 
 ### Características
 - Diseño Responsivo: El portafolio está optimizado para verse bien en dispositivos de escritorio, tabletas y móviles.
