@@ -15,9 +15,9 @@
         "contact_button": "Contact"
     },
 
-    "sobreMi": {
+    "sobre-mi": {
         "title": "About me",
-        "text_sobreMi": "I am a technology enthusiast with AWS Cloud Practitioner certification and experience in software development. software. During my participation in a project, I acquired valuable knowledge about remote work methodology, strengthening my collaboration and adaptability skills, also involving the management of large volumes of data and process optimization. <br>I am interested in continuing to grow in the IT area, exploring opportunities in web development and related technologies, while complementing my academic training. <br>"
+        "texto_sobreMi": "I am a technology enthusiast with AWS Cloud Practitioner certification and experience in software development. software. During my participation in a project, I acquired valuable knowledge about remote work methodology, strengthening my collaboration and adaptability skills, also involving the management of large volumes of data and process optimization. <br>I am interested in continuing to grow in the IT area, exploring opportunities in web development and related technologies, while complementing my academic training. <br>"
     },
 
     "habilidades": {

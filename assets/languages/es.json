@@ -29,11 +29,11 @@
 
         "formacion1.0": "Bachiller Informático",
         "formacion1.1": "Universidad Tecnológica del Uruguay",
-        "tiempo-formacion1" : "2019 - 2021",
+        "tiempo-formacion1": "2019 - 2021",
 
         "formacion2.0": "Ingeniería en Computación",
         "formacion2.1": "Facultad de Ingeniería",
-        "tiempo-formacion2" : "2022 - 2023",
+        "tiempo-formacion2": "2022 - 2023",
 
         "formacion4.0": "AWS Certified",
         "formacion4.1": "Cloud Practitioner",
