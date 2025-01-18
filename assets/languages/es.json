@@ -27,12 +27,12 @@
     "formacion": {
         "title": "Formación academica y Credenciales",
 
-        "formacion1.0" : "Bachiller Informático",
-        "formacion1.1" : "Universidad Tecnológica del Uruguay",
+        "formacion1.0": "Bachiller Informático",
+        "formacion1.1": "Universidad Tecnológica del Uruguay",
         "tiempo-formacion1" : "2019 - 2021",
 
-        "formacion2.0" : "Ingeniería en Computación",
-        "formacion2.1" : "Facultad de Ingeniería",
+        "formacion2.0": "Ingeniería en Computación",
+        "formacion2.1": "Facultad de Ingeniería",
         "tiempo-formacion2" : "2022 - 2023",
 
         "formacion4.0": "AWS Certified",
@@ -43,17 +43,17 @@
         "formacion5.1": "Graduate",
         "moreInfo_button5": "Mas Información",
 
-        "CredencialForge1" : "Trabajo en Equipo",
-        "moreInfo_button_Forge1" : "Mas Información",
+        "CredencialForge1": "Trabajo en Equipo",
+        "moreInfo_button_Forge1": "Mas Información",
 
-        "CredencialForge2" : "Liderazgo personal",
-        "moreInfo_button_Forge2" : "Mas Información",
+        "CredencialForge2": "Liderazgo personal",
+        "moreInfo_button_Forge2": "Mas Información",
 
-        "CredencialForge3" : "Orientación al logro",
-        "moreInfo_button_Forge3" : "Mas Información",
+        "CredencialForge3": "Orientación al logro",
+        "moreInfo_button_Forge3": "Mas Información",
 
-        "CredencialForge4" : "Compromiso con el aprendizaje",
-        "moreInfo_button_Forge4" : "Mas Información"
+        "CredencialForge4": "Compromiso con el aprendizaje",
+        "moreInfo_button_Forge4": "Mas Información"
     },
 
     "proyectos": {
