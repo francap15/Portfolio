@@ -32,5 +32,4 @@ o simplemente arrastra el archivo index.html a tu navegador.
 ### Contribuciones
 Las contribuciones son bienvenidas. Si tienes ideas para mejorar el portafolio o deseas reportar algún problema, por favor abre una issue o envía un pull request.
 
-### Portfolio de referencia
-[***Link del sitio web*** *Brofist* :facepunch:](https://fcundo-morales-portafolio.netlify.app)
+### [Idea original! 💡](https://fcundo-morales-portafolio.netlify.app)
