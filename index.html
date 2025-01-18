@@ -1,98 +1,456 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio de Balter Velázquez</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="description" content="Portafolio | Facundo Morales">
+    <meta name="robots" content="index,follow">
+
+    <title> Balter Velázquez | Portafolio </title>
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css">
+    <link rel="stylesheet" href="./assets/stylesheet/index.css">
+    <link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/deco/" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <div class="profile">
-            <img src="Foto-CV.jpg" alt="Foto de Balter Velázquez">
-            <h1>Balter Velázquez</h1>
-            <p>Estudiante TI</p>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#about">Sobre Mí</a></li>
-                <li><a href="#studies">Estudios/Cursos</a></li>
-                <li><a href="#skillsAndKnowledge">Aptitudes/Conocimientos</a></li>
-                <li><a href="#contact">Contacto</a></li>
-                <li><a href="#links">Links</a></li>
-            </ul>
+    <header class="header">
+
+        <nav class="nav_menu not-active">
+            <a href="#home" class="active">Home</a>
+            <a href="#sobreMi" data-section="menu" data-value="item2">Sobre mí</a>
+            <a href="#habilidades" data-section="menu" data-value="item3">Habilidades</a>
+            <a href="#formacion" data-section="menu" data-value="item4">Formación</a>
+            <a href="#proyectos" data-section="menu" data-value="item5">Proyectos</a>
+            <a href="#contacto" data-section="menu" data-value="item6">Contacto</a>
         </nav>
+
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
     </header>
 
-    <section id="about">
-        <h2>Sobre Mí</h2>
-        <p>Soy un joven con interés en generar experiencia laboral en el rubro de la tecnología. Tengo entusiasmo por aprender y disposición para asumir nuevos desafíos. Mi enfoque en la organización y la responsabilidad garantizará un desempeño eficiente en cualquier tarea que asuma. Valoro el trabajo en equipo y estoy comprometido en contribuir al logro de objetivos compartidos.</p>
-    </section>
+    <main>
+        <!-- Home -->
+        <section class="home" id="home">
+            <picture class="container_image-home" data-aos="zoom-in">
+                <img class="image_home" src="./assets/images/deco/Foto-CV.jpg" alt="Foto de perfil">
+            </picture>
+            
+            <div class="home_info">
+                <div class="container_text-info">
+                    <p class="home_text-1" data-section="home" data-value="home_text-1">
+                        Buenas! Yo Soy
+                    </p>
+                    <p class="home_text-2"> Balter Velázquez </p>
+                </div>
+                <div>
+                    <p class="home_text-3 text-type" data-section="home" data-value="home_text-3"> 
+                        AWS Cloud Practitioner | Estudiante de TI
+                    </p>
+                </div>
+                <div class="container_parrafo-info">
+                    <p data-section="home" data-value="parrafo-info">
+                        Soy un entusiasta de la tecnología con certificación AWS Cloud Practitioner y experiencia en desarrollo de software.
+                        <br>Busco seguir creciendo en TI, explorando oportunidades en desarrollo web y tecnologías relacionadas mientras complemento mi formación académica.    
+                    </p>
+                </div>
+                <div class="container_button">
+                    <a href="https://drive.google.com/file/d/1Pr8HSzevQ-YkZZeJqODrejPOacFrExCq/view?usp=sharing" target="_blank">
+                        <button class="cv_button" data-section="home" data-value="cv_button">Descargar CV</button>
+                    </a>
+                    <a href="#contacto">
+                        <button class="contact_button" data-section="home" data-value="contact_button">Contacto</button>
+                    </a>
+                </div>
+            </div>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/balter-vel%C3%A1zquez/" target="_blank">
+                    <img src="./assets/images/icon/icon-linkedin.png" alt="LinkedIn" class="icon-linkedin">
+                </a>
+                <a href="https://github.com/francap15" target="_blank">
+                    <img src="./assets/images/icon/icon-github.png" alt="GitHub" class="icon-github">
+                </a>
+                <a href="https://www.credly.com/users/balter-velazquez/" target="_blank">
+                    <img src="./assets/images/icon/icon-credly.png" alt="Credly" class="icon-credly">
+                </a>
+            </div>
+        </section>
 
-    <section id="studies">
-        <h2>Estudios</h2>
-        <ul>
-            <li>
-                <h3>Facultad de Ingeniería Udelar - Montevideo</h3>
-                <p>2022 - 2023<br>Ingeniería en computación</p>
-            </li>
-            <li>
-                <h3>Universidad Tecnológica del Uruguay - Young</h3>
-                <p>2019 - 2021<br>Bachiller Informático</p>
-            </li>
-        </ul>
-        <h2>Cursos</h2>
-        <ul>
-            <li>
-                <h3><a href="https://www.credly.com/badges/721d77f8-704d-4f84-8ead-69ea2ff237f4/linked_in_profile" style="color:black">Cloud Practitioner</a>, <a href="https://www.credly.com/badges/39f89de7-f91e-45c9-90a4-25fbd3a765a5/linked_in_profile" style="color:black">AWS re/start</a> - <a href="https://www.linkedin.com/school/codingdojo/posts/?feedView=all" style="color:black">Coding Dojo</a></h3>
-                <p>Es un programa de formación intensiva de AWS para desarrollar habilidades tecnológicas y preparar para carreras en la nube</p>
-            </li>
-            <li>
-                <h3>Tu Futuro - <a href="https://www.linkedin.com/company/forgeorg/" style="color:black;">Fundación Forge</a></h3>
-                <p>Curso de habilidades socioemocionales para la empleabilidad</p>
-            </li>
-        </ul>
-    </section>
+        <!-- Sobre mí -->
+        <section class="sobreMi" id="sobreMi">
+            <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up">Sobre mí</h1>
 
-    <section id="skillsAndKnowledge">
-        <h2>Aptitudes</h2>
-        <ul>
-            <li>Trabajo en equipo</li>
-            <li>Responsabilidad</li>
-            <li>Capacidad para seguir instrucciones y de aprendizaje continuo</li>
-            <li>Organización</li>
-            <li>Asiduidad</li>
-        </ul>
+            <div class="container_content-sobreMi" data-aos="fade-right">
+                <div class="container_texto-sobreMi">
+                    <span class="title_sobreMi"> Balter Velázquez </span>
+                    <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">
+                        Soy un entusiasta de la tecnología con certificación en AWS Cloud Practitioner y experiencia en desarrollo de software. Durante mi participación en un proyecto, adquirí valiosos conocimientos sobre la metodología de trabajo en remoto, fortaleciendo mis habilidades de colaboración y adaptabilidad, tambíen involucraba el manejo de grandes volúmenes de datos y la optimización de procesos.
+                        <br>Estoy interesado en continuar creciendo en el área de TI, explorando oportunidades en desarrollo web y tecnologías relacionadas, mientras complemento mi formación académica. <br>
+                    </span>
+                </div>
 
-        <h2>Conocimientos</h2>
-        <ul>
-            <li>Sistemas Operativos Windows y Linux</li>
-            <li>Hardware y software</li>
-            <li>JavaScript y Python</li>
-            <li>Bases de datos y SQL</li>
-        </ul>
-    </section>
+                <picture class="container_image-sobreMi">
+                    <img class="image_sobreMi" src="./assets/images/deco/image-sobreMi.png" alt="Ilustración">
+                </picture>
+            </div>
+        </section>
 
-    <section id="contact">
-        <h2>Contacto</h2>
-        <p>Teléfono: 092771903</p>
-        <p>Email: balter.contacto@gmail.com</p>
-        <p>Ubicación: Barrio Bella Vista, Montevideo, Uruguay</p>
-    </section>
+        <!-- Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h1 data-section="habilidades" data-value="title" data-aos="fade-up">Habilidades</h1>
 
-    <section id="links">
-        <h2>Links</h2>
-        <div class="container" id="linksContainer"></div>
-    </section>
+            <div class="cards_container--habilidades">     
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon/icon-aws.png" alt="AWS Cloud">
+                    <p> AWS Cloud </p>
+                </div> 
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon/icon-html.png" alt="HTML 5">
+                    <p> HTML 5 </p>
+                </div> 
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon/icon-css.png" alt="CSS 3">
+                    <p> CSS 3 </p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon/icon-js.png" alt="JavaScript">
+                    <p> JavaScript </p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/icon/icon-python.png" alt="Python">
+                    <p> Python </p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon/icon-git.png" alt="Git">
+                    <p> Git </p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon/icon-github-hab.png" alt="GitHub">
+                    <p> Github </p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/icon/icon-mysql.png" alt="MySQL">
+                    <p> MySQL </p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/icon/icon-mongoDB.png" alt="MongoDB">
+                    <p> Mongo DB </p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/icon/icon-nodejs.png" alt="Node.js">
+                    <p> Node.js </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formación -->
+        <section class="formacion" id="formacion">
+            <h1 data-section="formacion" data-value="title" data-aos="fade-up">Formación Academica y Credenciales</h1>
+            
+            <div class="cards_container--formacion">
+
+                <!-- Primera Formacion -->
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-aws" src="./assets/images/icon/icon-utu.png" alt="AWS Cloud Practitioner">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion1.0">Bachiller Informático</p>
+                        <p data-section="formacion" data-value="formacion1.1">Universidad Tecnológica del Uruguay</p>
+                        <p data-section="formacion" data-value="tiempo-formacion1">2019 - 2021</p>
+                    </div>
+                </div>
+
+                <!-- Segunda Formacion -->
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-aws" src="./assets/images/icon/icon-fing.png" alt="AWS Cloud Practitioner">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion2.0">Ingeniería en Computación</p>
+                        <p data-section="formacion" data-value="formacion2.1">Facultad de Ingeniería</p>
+                        <p data-section="formacion" data-value="tiempo-formacion2">2022 - 2023</p>
+                    </div>
+                </div>
+
+                <!-- Tercera Formacion 
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-aws" src="./assets/images/icon/icon-utec.png" alt="AWS Cloud Practitioner">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion3.0">Licenciado/a en Tecnologías de la Información</p>
+                        <p data-section="formacion" data-value="formacion3.1">Licenciatura en Tecnologías de la Información</p>
+                        <p data-section="formacion" data-value="tiempo-formacion3">Actualidad</p>
+                    </div>
+                </div>-->
+
+                <!-- Cuarta Formacion -->
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-aws" src="./assets/images/icon/aws1.png" alt="AWS Cloud Practitioner">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion4.0">AWS Certified</p>
+                        <p data-section="formacion" data-value="formacion4.1">Cloud Practitioner</p>
+                        <a href="https://www.credly.com/badges/721d77f8-704d-4f84-8ead-69ea2ff237f4/linked_in_profile" target="_blank">
+                            <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button1">
+                                Mas información
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quinta Formacion -->
+                <div class="cards_container--formacion">
+                    <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
+                        <img class="logo-aws" src="./assets/images/icon/aws2.png" alt="AWS re/Start Graduate">
+                        <div class="container_texto--formacion">
+                            <p data-section="formacion" data-value="formacion2.0"> AWS re/Start</p>
+                            <p data-section="formacion" data-value="formacion2.1">Graduate</p>
+
+                            <a href="https://www.credly.com/badges/39f89de7-f91e-45c9-90a4-25fbd3a765a5/linked_in_profile" target="_blank">
+                                <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button2">
+                                    Mas informacion
+                                </button>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- quinta Formacion 
+                <div class="cards_container--formacion">
+                    <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
+                        <img class="logo-aws" src="./assets/images/icon/icon-jap.png" alt="forge">
+                        <div class="container_texto--formacion">
+                            <p data-section="formacion" data-value="formacion5.0">Jovenes a Programar </p>
+                            <p data-section="formacion" data-value="formacion5.1">Testing</p>
+                            <a href="https://drive.google.com/file/d/1YVdNtiVKTfntO_3cJhe7J_PIbSCg1jBj/view?usp=sharing" target="_blank">
+                                <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button5">
+                                    Mas informacion
+                                </button>
+                            </a> 
+                        </div>
+                    </div>
+                </div>-->
+
+                <!-- Credencial forge 1 - Formacion -->
+                <div class="cards_container--formacion">
+                    <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                        <img class="logo-forge" src="./assets/images/icon/forge1.png" alt="forge">
+                        <div class="container_texto--formacion">
+                            <p data-section="formacion" data-value="CredencialForge1">Trabajo en Equipo</p>
+                            <a href="https://www.acreditta.com/credential/0389dfbe-44e2-4e19-90a4-9a9125ad5706" target="_blank">
+                                <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button_Forge1">
+                                    Mas informacion
+                                </button>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+                <!-- Credencial forge 2 - Formacion -->
+                <div class="cards_container--formacion">
+                    <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
+                        <img class="logo-forge" src="./assets/images/icon/forge2.png" alt="forge">
+                        <div class="container_texto--formacion">
+                            <p data-section="formacion" data-value="CredencialForge2">Liderazgo personal</p>
+                            <a href="https://www.acreditta.com/credential/98198f5b-069c-4e9f-bffb-fb0990005fac" target="_blank">
+                                <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button_Forge2">
+                                    Mas informacion
+                                </button>
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+                <!-- Credencial forge 3 - Formacion -->
+                <div class="cards_container--formacion">
+                    <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                        <img class="logo-forge" src="./assets/images/icon/forge3.png" alt="forge">
+                        <div class="container_texto--formacion">
+                            <p data-section="formacion" data-value="CredencialForge3">Orientación al logro </p>
+                            <a href="https://www.acreditta.com/credential/950a4f3d-5215-4e84-807c-948c2a364fbc?utm_source=copy&resource_type=badge&resource=950a4f3d-5215-4e84-807c-948c2a364fbc" target="_blank">
+                                <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button_Forge3">
+                                    Mas informacion
+                                </button>
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+                <!-- Credencial forge 4 - Formacion -->
+                <div class="cards_container--formacion">
+                    <div class="cards--formacion" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
+                        <img class="logo-forge" src="./assets/images/icon/forge4.png" alt="forge">
+                        <div class="container_texto--formacion">
+                            <p data-section="formacion" data-value="CredencialForge4">Compromiso con el aprendizaje </p>
+                            <a href="https://www.acreditta.com/credential/5c3e473c-50f8-4ad8-93ce-cce35ea462c2" target="_blank">
+                                <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button_Forge4">
+                                    Mas informacion
+                                </button>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+                <!-- Credencial forge 5 - Formacion -->
+                <div class="cards_container--formacion">
+                    <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                        <img class="logo-forge" src="./assets/images/icon/forge5.png" alt="forge">
+                        <div class="container_texto--formacion">
+                            <p data-section="formacion" data-value="CredencialForge3">Trabajo en Equipo </p>
+                            <a href="https://view.pok.tech/c/75a7d8d7-4298-4c3e-a9f4-e9951f7a0a59" target="_blank">
+                                <button class="moreInfo_button" data-section="formacion" data-value="moreInfo_button_Forge3">
+                                    Mas informacion
+                                </button>
+                            </a>  
+                        </div>
+                    </div>
+                </div>             
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section class="proyectos" id="proyectos">
+            <h1 data-section="proyectos" data-value="title" data-aos="fade-up">Proyectos</h1>
+            
+            <div class="cards_container--proyectos">
+                <!-- PRIMER PROYECTO -->
+                <div class="cards--proyectos card_appLinks" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/icon/icon-AppLinks.png" alt="Proyecto: Juego de la Batalla Naval">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto1">Links App NodeMongo</h2>
+                        <p data-section="proyectos" data-value="info-proyecto1">
+                            Aplicación web CRUD para gestionar enlaces favoritos, desarrollada con Node.js, MongoDB y Handlebars. Permite almacenar, editar y organizar links de forma sencilla. 
+                        </p>
+                    </div>
+                    <div class="container_btn--proyectos">
+                        <a href="https://github.com/francap15/Links-App-NodeMongo" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./assets/images/icon/icon-github.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- 2do PROYECTO -->
+                <div class="cards--proyectos card_portafolio" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/icon/icon-Portafolio.png" alt="Proyecto: Portafolio">
+                    </div>
+
+                    <div class="container_textCard--proyectos text-portafolio">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">Portafolio</h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">
+                            Mi portafolio web, donde se encuentran algunos de mis proyectos destacados, mis habilidades técnicas y un poco sobre mi formación.
+                        </p>
+                    </div>
+
+                    <div class="container_btn--proyectos">          
+                        <a href="https://francap15.github.io/Portfolio/" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+
+                        <a href="https://github.com/francap15/Portfolio" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./assets/images/icon/icon-github.png" alt="Repositorio de Github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                
+            </div> 
+        </section>
+
+        <!-- Contacto -->
+        <section class="contacto" id="contacto">
+            <h1 data-section="contacto" data-value="title" data-aos="fade-up">Contacto</h1>
+
+            <div class="container_box--contacto" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <div class="container--contacto">
+                    <div class="container_text--contacto">
+                        <p data-section="contacto" data-value="text">
+                            Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.
+                        </p>
+                    </div>
+                    
+                    <!-- Formulario adaptado para Netlify -->
+                    <form id="form" class="form-contact" name="contacto-portafolio" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+
+                        <!-- Campo oculto para evitar bots -->
+                        <input type="hidden" name="form-name" value="contacto-portafolio" />
+
+                        <input id="nombre" type="text" name="name" placeholder="Nombre" required>
+                        <input id="email" type="email" name="email" placeholder="Correo" required>
+                        <input id="asunto" type="text" name="affair" placeholder="Asunto" required> 
+                        <textarea id="mensaje" cols="20" rows="4" name="message" placeholder="Mensaje" required></textarea>
     
+                        <div class="btn_form--contacto">
+                            <button id="btn-enviar" type="submit" data-section="contacto" data-value="btn-enviar">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>         
+    </main>
+
     <footer>
-        <button id="backToTop">
-            <i class="fas fa-arrow-up"></i>
-        </button>
-        <p>&copy; 2024 Balter Velázquez - Todos los derechos reservados.</p>
+        <div class="contianer--footer">
+            <div class="container_redes-footer">
+                <a href="https://www.linkedin.com/in/balter-vel%C3%A1zquez/" target="_blank">
+                    <img src="./assets/images/icon/icon-linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/francap15" target="_blank">
+                    <img src="./assets/images/icon/icon-github.png" alt="GitHub">
+                </a>
+                <a href="https://www.instagram.com/fran_cap15/" target="_blank">
+                    <img src="./assets/images/icon/icon-instagram.png" alt="Instagram">
+                </a>
+                <a href="mailto:balter.contacto@gmail.com" target="_blank">
+                    <img src="./assets/images/icon/icon-mail.png" alt="gmail">
+                </a>
+            </div>
+        </div>
     </footer>
 
-    <script src="script.js"></script>
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Mi script -->
+    <script src="./script.js"></script>
 </body>
 </html>
