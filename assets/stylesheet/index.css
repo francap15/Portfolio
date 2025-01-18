@@ -64,10 +64,6 @@ html::-webkit-scrollbar-thumb {
     background: rgba(41,41,41,.3);
 }
 
-.header .logo__header {
-    width: 4.5rem;
-}
-
 nav.nav_menu.active {
     display: flex;
     justify-content: center;

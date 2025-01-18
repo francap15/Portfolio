@@ -8,16 +8,16 @@
     },
 
     "home": {
-        "home_text-1": "Hey! I'm",
+        "home_text-1": "Hi! I am",
         "home_text-3": "AWS Cloud Practitioner | IT Student",
-        "parrafo-info": "Student of different branches of computer science, taking as a starting point the design of both cloud and structures. I specialise in different areas, which has given me a broad and versatile profile in the field.",
+        "parrafo-info": "I am a technology enthusiast with AWS Cloud Practitioner certification and experience in software development. <br>I am looking to continue growing in IT, exploring opportunities in web development and related technologies while complementing my academic training.",
         "cv_button": "Download CV",
         "contact_button": "Contact"
     },
 
-    "sobre-mi": {
+    "sobreMi": {
         "title": "About me",
-        "texto_sobreMi": "I am a highly responsible, punctual and organised person, with a great ability to adapt to different working environments. My goal is to get my first job opportunity in the IT sector, where I am confident that my skills and knowledge can make a difference. <br> I feel ready to face new challenges and contribute effectively. <br>"
+        "text_sobreMi": "I am a technology enthusiast with AWS Cloud Practitioner certification and experience in software development. software. During my participation in a project, I acquired valuable knowledge about remote work methodology, strengthening my collaboration and adaptability skills, also involving the management of large volumes of data and process optimization. <br>I am interested in continuing to grow in the IT area, exploring opportunities in web development and related technologies, while complementing my academic training. <br>"
     },
 
     "habilidades": {
@@ -25,56 +25,50 @@
     },
 
     "formacion": {
-        "title": "Academic background and credentials",
+        "title": "Academic Training and Credentials",
 
-        "formacion1.0": "AWS Certified",
-        "formacion1.1": "Cloud Practitioner",
-        "moreInfo_button1": "Further information",
-        
-        "formacion2.0": "AWS re/Start",
-        "formacion2.1": "Graduate",
-        "moreInfo_button2": "Further information",
+        "formacion1.0": "Computer Science Bachelor",
+        "formacion1.1": "Technological University of Uruguay",
+        "tiempo-formacion1": "2019 - 2021",
 
-        "formacion3.0" : "Coursera",
-        "formacion3.1": "Certificates in different IT fields",
-        
-        "formacion4.0" : "Computer Engineering",
-        "formacion4.1" : "Universidad Católica del Uruguay",
-        "tiempo-formacion4" : "2020 - 2023",
+        "formacion2.0": "Computer Engineering",
+        "formacion2.1": "Engineering Faculty",
+        "tiempo-formacion2": "2022 - 2023",
 
-        "formacion5.0" : "Jovenes a Programar",
-        "formacion5.1" : "Testing",
-        "moreInfo_button5": "Further information",
+        "formacion4.0": "AWS Certified",
+        "formacion4.1": "Cloud Practitioner",
+        "moreInfo_button4": "More Information",
 
-        "CredencialForge1" : "Teamwork",
-        "moreInfo_button_Forge1" : "Further information",
+        "formacion5.0": "AWS re/Start",
+        "formacion5.1": "Graduate",
+        "moreInfo_button5": "More Information",
 
-        "CredencialForge2" : "Personal leadership",
-        "moreInfo_button_Forge2" : "Further information",
+        "CredencialForge1": "Teamwork",
+        "moreInfo_button_Forge1": "More Information",
 
-        "CredencialForge3" : "Achievement orientation",
-        "moreInfo_button_Forge3" : "Further information",
+        "CredencialForge2": "Personal Leadership",
+        "moreInfo_button_Forge2": "More Information",
 
-        "CredencialForge4" : "Engagement in learning",
-        "moreInfo_button_Forge4" : "Further information"
+        "CredencialForge3": "Achievement Orientation",
+        "moreInfo_button_Forge3": "More Information",
+
+        "CredencialForge4": "Commitment to Learning",
+        "moreInfo_button_Forge4": "More Information"
     },
 
     "proyectos": {
         "title": "Projects",
-        
-        "title-proyecto1": "Battleship Game",
-        "info-proyecto1": "You will embark on an epic battle, far from being the conventional game and with plenty of twists and turns",
-        
-        "title-proyecto2": "Website using AWS S3",
-        "info-proyecto2": "We provide a tutorial and an example of how to deploy a website using amazon S3.",
-        
-        "title-proyecto3": "Portafolio",
-        "info-proyecto3": "My personal web portfolio, where you can find some of my most outstanding projects, my technical skills and a bit about my background."
+
+        "title-proyecto1": "NodeMongo Links App",
+        "info-proyecto1": "CRUD web application to manage favorite links, developed with Node.js, MongoDB and Handlebars. Allows you to store, edit and organize links easily.",
+
+        "title-proyecto2": "Portfolio",
+        "info-proyecto2": "My personal web portfolio includes a selection of my most representative projects, a list of my technical skills and a brief description of my academic and professional background."
     },
 
     "contacto": {
         "title": "Contact",
-        "text": "Complete the form below and I will contact you as soon as possible.",
+        "text": "Fill out the following form and I will get back to you as soon as possible.",
         "btn-enviar": "Send"
     }
 }

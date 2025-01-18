@@ -9,15 +9,15 @@
 
     "home": {
         "home_text-1": "Buenas! Yo Soy",
-        "home_text-3": "AWS Cloud Practitioner | Estudiante de TI",
-        "parrafo-info": "Estudiante de distintas ramas de la informática, tomando como punto de partida el diseño tanto de nube como de estructuras. Me especializo en diversas áreas, lo que me ha proporcionado un perfil amplio y versátil en el campo.",
+        "home_text-3": "AWS Cloud Practitioner | Estudiante TI",
+        "parrafo-info": "Soy un entusiasta de la tecnología con certificación AWS Cloud Practitioner y experiencia en desarrollo de software. <br>Busco seguir creciendo en TI, explorando oportunidades en desarrollo web y tecnologías relacionadas mientras complemento mi formación académica.",
         "cv_button": "Descargar CV",
         "contact_button": "Contacto"
     },
 
     "sobre-mi": {
         "title": "Sobre mí",
-        "texto_sobreMi": "Soy una persona altamente responsable, puntual y organizada, con una gran capacidad para adaptarme a diferentes entornos de trabajo. Mi objetivo es obtener mi primera oportunidad laboral en el sector de IT, donde confío en que mis habilidades y conocimientos podrán marcar la diferencia. <br> Me siento preparado para enfrentar nuevos desafíos y contribuir de manera efectiva. <br>"
+        "texto_sobreMi": "Soy un entusiasta de la tecnología con certificación en AWS Cloud Practitioner y experiencia en desarrollo de software. Durante mi participación en un proyecto, adquirí valiosos conocimientos sobre la metodología de trabajo en remoto, fortaleciendo mis habilidades de colaboración y adaptabilidad, tambíen involucraba el manejo de grandes volúmenes de datos y la optimización de procesos. <br>Estoy interesado en continuar creciendo en el área de TI, explorando oportunidades en desarrollo web y tecnologías relacionadas, mientras complemento mi formación académica. <br>"
     },
 
     "habilidades": {
@@ -27,23 +27,20 @@
     "formacion": {
         "title": "Formación academica y Credenciales",
 
-        "formacion1.0": "AWS Certified",
-        "formacion1.1": "Cloud Practitioner",
-        "moreInfo_button1": "Mas Información",
-        
-        "formacion2.0": "AWS re/Start",
-        "formacion2.1": "Graduate",
-        "moreInfo_button2": "Mas Información",
+        "formacion1.0" : "Bachiller Informático",
+        "formacion1.1" : "Universidad Tecnológica del Uruguay",
+        "tiempo-formacion1" : "2019 - 2021",
 
-        "formacion3.0" : "Coursera",
-        "formacion3.1": "Certificados en distintas ramas de IT",
-        
-        "formacion4.0" : "Ingeniería en Informática",
-        "formacion4.1" : "Universidad Católica del Uruguay",
-        "tiempo-formacion4" : "2020 - 2023",
+        "formacion2.0" : "Ingeniería en Computación",
+        "formacion2.1" : "Facultad de Ingeniería",
+        "tiempo-formacion2" : "2022 - 2023",
 
-        "formacion5.0" : "Jovenes a Programar",
-        "formacion5.1" : "Testing",
+        "formacion4.0": "AWS Certified",
+        "formacion4.1": "Cloud Practitioner",
+        "moreInfo_button4": "Mas Información",
+        
+        "formacion5.0": "AWS re/Start",
+        "formacion5.1": "Graduate",
         "moreInfo_button5": "Mas Información",
 
         "CredencialForge1" : "Trabajo en Equipo",
@@ -62,19 +59,16 @@
     "proyectos": {
         "title": "Proyectos",
         
-        "title-proyecto1": "Juego Batalla Naval",
-        "info-proyecto1": "Te embarcaras en una épica batalla, lejos de ser el juego convencional y con bastantes giros.",
+        "title-proyecto1": "Links App NodeMongo",
+        "info-proyecto1": "Aplicación web CRUD para gestionar enlaces favoritos, desarrollada con Node.js, MongoDB y Handlebars. Permite almacenar, editar y organizar links de forma sencilla.",
         
-        "title-proyecto2": "Sitio Web usando S3",
-        "info-proyecto2": "Planteamos un tutorial y un ejemplo de como desplegar un sitio web utilizando amazon S3.",
-        
-        "title-proyecto3": "Portafolio",
-        "info-proyecto3": "Mi portafolio web personal, donde se encuentran algunos de mis proyectos más destacados, mis habilidades técnicas y un poco sobre mi formación."
+        "title-proyecto2": "Portafolio",
+        "info-proyecto2": "Mi portafolio web personal incluye una selección de mis proyectos más representativos, una lista de mis habilidades técnicas y una breve descripción de mi formación académica y profesional."
     },
 
     "contacto": {
         "title": "Contacto",
-        "text": "Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.",
+        "text": "Completa el siguiente formulario y me pondré en contacto contigo cuanto antes.",
         "btn-enviar": "Enviar"
     }
 }
