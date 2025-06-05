@@ -67,7 +67,10 @@
         "info-proyecto1": "Aplicación web CRUD para gestionar enlaces favoritos, desarrollada con Node.js, MongoDB y Handlebars. Permite almacenar, editar y organizar links de forma sencilla.",
         
         "title-proyecto2": "Portafolio",
-        "info-proyecto2": "Mi portafolio web personal incluye una selección de mis proyectos más representativos, una lista de mis habilidades técnicas y una breve descripción de mi formación académica y profesional."
+        "info-proyecto2": "Mi portafolio web personal incluye una selección de mis proyectos más representativos, una lista de mis habilidades técnicas y una breve descripción de mi formación académica y profesional.",
+
+        "title-proyecto3": "BusinessPass",
+        "info-proyecto3": "Generador de contraseñas seguras para equipos IT, con exportación masiva y filtrado de caracteres ambiguos. Tecnologías utilizadas: HTML5, CSS3, JavaScript."
     },
 
     "contacto": {

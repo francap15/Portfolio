@@ -67,7 +67,10 @@
         "info-proyecto1": "CRUD web application to manage favorite links, developed with Node.js, MongoDB and Handlebars. Allows you to store, edit and organize links easily.",
 
         "title-proyecto2": "Portfolio",
-        "info-proyecto2": "My personal web portfolio includes a selection of my most representative projects, a list of my technical skills and a brief description of my academic and professional background."
+        "info-proyecto2": "My personal web portfolio includes a selection of my most representative projects, a list of my technical skills and a brief description of my academic and professional background.",
+
+        "title-proyecto3": "BusinessPass",
+        "info-proyecto3": "Secure password generator for IT teams, with bulk export and ambiguous character filtering. Technologies used: HTML5, CSS3, JavaScript."
     },
 
     "contacto": {
